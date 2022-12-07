@@ -20,7 +20,6 @@ function pesca(){
                 console.log("Diverso")
             }
         });
-        //ciao
     }
 
     giaPescati.push(numRandom)
