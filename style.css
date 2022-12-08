@@ -63,9 +63,12 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
-
+#numero-pescato{
+    font-size: 80px;
+}
 
 .grid{
     display: grid;

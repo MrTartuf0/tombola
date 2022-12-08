@@ -1,4 +1,5 @@
 let numPescato = document.getElementById("numero-pescato")
+let numPescatoText = document.getElementById("numero-pescato-text")
 let giaPescati = [0]
 let numRandom = 0
 
@@ -15,6 +16,9 @@ function pesca2(){
     allNumbers.splice(randomIndex-1 , 1)
     let taken  = document.querySelector(".n"+(numRandom))
     taken.classList.add("taken")
+
+    numPescatoText.textContent = "Il numero pescato e' :"
+    numPescato.textContent = numRandom
 }
 
 // BLOAT VERSION
