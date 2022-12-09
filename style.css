@@ -72,11 +72,47 @@ button:hover{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(10 ,1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 8px;
     padding: 8px;
     grid-area: table;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f";
+}
+
+.a , .b , .c , .d , .e , .f{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 8px;
+    border: 3px solid black;
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+
+.e{
+    grid-area: e;
+}
+
+.f{
+    grid-area: f;
 }
 
 .num{
@@ -86,7 +122,6 @@ button:hover{
     background-color: lightgreen;
     border-radius: 4px;
 }
-
 
 
 
