@@ -89,30 +89,38 @@ button:hover{
     grid-template-rows: repeat(3 , 1fr);
     gap: 8px;
     border: 3px solid black;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .a{
     grid-area: a;
+    background-color: lightblue;
 }
 
 .b{
     grid-area: b;
+    background-color: lightgrey;
 }
 
 .c{
     grid-area: c;
+    background-color: lightpink;
 }
 
 .d{
     grid-area: d;
+    background-color: lightskyblue;
 }
 
 .e{
     grid-area: e;
+    background-color: lightslategrey;
 }
 
 .f{
     grid-area: f;
+    background-color: lightsteelblue;
 }
 
 .num{
@@ -121,6 +129,7 @@ button:hover{
     justify-content: center;
     background-color: lightgreen;
     border-radius: 4px;
+    font-size: 20px;
 }
 
 
