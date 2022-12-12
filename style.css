@@ -7,6 +7,11 @@
 }
 
 
+@font-face {
+    font-family: 'xmas';
+    src:  url('xmas.ttf') format('truetype');
+}
+
 body{
     font-family: 'JetBrains Mono', monospace;
     background-color: #FFF3E7;
@@ -31,6 +36,7 @@ section{
     align-items: center;
     font-weight: 900;
     color: red;
+    font-family: xmas;
 }
 
 .button-container{
